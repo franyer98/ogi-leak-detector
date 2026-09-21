@@ -63,6 +63,16 @@ que el detector no confunda el temblor de cámara con gas.
 
 ## Uso
 
+### Sin instalar nada
+
+Abre `colab_ogi.ipynb` en Google Colab y ejecuta las celdas. Genera las
+imágenes, el conjunto etiquetado y permite descargarlo, todo desde el
+navegador.
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/franyer98/ogi-leak-detector/blob/main/colab_ogi.ipynb)
+
+### En local
+
 ```python
 from dataset import construir
 construir(n_secuencias=200, n_frames=12)
