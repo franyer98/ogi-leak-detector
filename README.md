@@ -3,7 +3,10 @@
 Detección automática de penachos de metano en video de cámara termográfica
 (Optical Gas Imaging), entrenado con datos sintéticos.
 
-![Penachos sintéticos sobre escenas OGI](docs/penachos-detectados.jpg)
+![Detección de fugas en video OGI](docs/demo.gif)
+
+*Secuencia sintética: el video arranca sin marcas y a los dos segundos entra
+la detección sobre los dos penachos.*
 
 ## El problema
 
