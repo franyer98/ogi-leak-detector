@@ -215,7 +215,7 @@ de severidad basada en el área que ocupa en el encuadre.
 desempeño sobre video OGI real requiere reentrenamiento con imágenes de campo.
 """
 
-with gr.Blocks(title="Detector de fugas OGI", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Detector de fugas OGI") as demo:
     gr.Markdown(DESCRIPCION)
 
     umbral = gr.Slider(0.05, 0.95, value=0.25, step=0.05,
@@ -251,5 +251,4 @@ if __name__ == "__main__":
     demo.launch(
         server_name="0.0.0.0",
         server_port=int(os.environ.get("PORT", 7860)),
-        show_api=False,
     )
